@@ -1,0 +1,5 @@
+source      : ./dev
+destination : ./dist
+name        : Jekyll Starter
+author      : Paulo Campos
+baseUrl     : http://localhost:4000
