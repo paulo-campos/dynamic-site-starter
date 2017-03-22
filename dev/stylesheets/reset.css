@@ -1,0 +1,94 @@
+/**
+  * @name Compass
+  */
+/**
+  * @name Modules
+  */
+@font-face {
+  font-family: "VarelaRoundRegular";
+  src: url('../assets/fonts/VarelaRoundRegular/VarelaRoundRegular.eot?1490145476');
+  src: url('../assets/fonts/VarelaRoundRegular/VarelaRoundRegular.eot?&1490145476#iefix') format('embedded-opentype'), url('../assets/fonts/VarelaRoundRegular/VarelaRoundRegular.woff?1490145476') format('woff'), url('../assets/fonts/VarelaRoundRegular/VarelaRoundRegular.ttf?1490145476') format('truetype'), url('../assets/fonts/VarelaRoundRegular/VarelaRoundRegular.svg?1490145476') format('svg');
+}
+/**
+  * @name Fonts
+  */
+/**
+  * @name Scaffolding
+  */
+/**
+  * @name Pseudo
+  */
+/**
+  * @name Effects
+  */
+/**
+  * @name Reset
+  */
+/* line 19, reset.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 24, reset.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 26, reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 27, reset.scss */
+a,
+button {
+  background-color: transparent;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 33, reset.scss */
+a:focus,
+button:focus {
+  outline: none;
+}
+/* line 34, reset.scss */
+a:active,
+button:active {
+  outline: none;
+}
+/* line 35, reset.scss */
+a::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: none;
+}
+
+/* line 37, reset.scss */
+input,
+select,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* line 47, reset.scss */
+button,
+[type="submit"],
+[type="button"] {
+  font-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=reset.css.map */

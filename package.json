@@ -1,0 +1,49 @@
+{
+  "name": "jekyll-starter",
+  "version": "1.0.0",
+  "description": "This project aims to streamline starting an application in Jekyll",
+  "main": "gulpfile.js",
+  "scripts": {
+    "compile:dev": "concurrently \"jekyll build --config ./jekyll/config.dev.yml\" \"gulp compile:dev\"",
+    "compile:dist": "concurrently \"jekyll build --config ./jekyll/config.dist.yml\" \"gulp compile:dist\"",
+    "serve:dev": "concurrently \"jekyll build --config ./jekyll/config.dev.yml --watch\" \"gulp serve:dev\"",
+    "serve:dist": "concurrently \"jekyll build --config ./jekyll/config.dist.yml\" \"gulp serve:dist\"",
+    "compile:prod": "concurrently \"jekyll build --config ./jekyll/config.prod.yml\" \"gulp compile:dist\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-campos/jekyll-starter.git"
+  },
+  "author": {
+    "name": "Paulo Campos",
+    "email": "paulovitorwd@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/paulo-campos/jekyll-starter/issues"
+  },
+  "homepage": "https://github.com/paulo-campos/jekyll-starter#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "browser-sync": "^2.18.6",
+    "concurrently": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.4",
+    "npm": "^4.1.1"
+  },
+  "license": "MIT"
+}

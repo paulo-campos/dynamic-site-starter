@@ -58,12 +58,18 @@
         <!--==== Favicons ====-->
 
 
-        <!-- build:css app/app.bundle.css -->
         <!--==== Stylesheets ====-->
-        <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="app/app.style.css">
-        <!--==== Stylesheets ====-->
+        <!-- build:css stylesheets/normalize.min.css -->
+        <link rel="stylesheet" href="../../node_modules/normalize.css/normalize.css">
         <!-- endbuild -->
+        <!-- build:css stylesheets/reset.min.css -->
+        <link rel="stylesheet" href="../stylesheets/reset.css">
+        <!-- endbuild -->
+        <!-- build:css stylesheets/{{ page.slug }}.min.css -->
+        <link rel="stylesheet" href="../stylesheets/pages/{{ page.slug }}.css">
+        <!-- endbuild -->
+        <!--==== Stylesheets ====-->      
 
     </head>
     <body>
+        <div class="base">

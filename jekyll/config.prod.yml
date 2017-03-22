@@ -1,0 +1,6 @@
+source      : ./dev
+destination : ./dev/_statics
+exclude     : ['icons', 'assets', 'scripts', 'stylesheets']
+name        : Jekyll Starter
+author      : Paulo Campos
+baseUrl     : http://paulocampos.esy.es

@@ -1,3 +1,15 @@
-_site
-.sass-cache
+# Ignored folders
+/.sass-cache/
+/dev/_statics/
+/dist/
+/node_modules/
+
+# Ignored files
+/dev/app/**/*.css
+/dev/app/**/*.map
 .jekyll-metadata
+
+# Ignored extensions
+*.DS_Store
+*.lnk
+*.log

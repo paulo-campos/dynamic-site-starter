@@ -1,0 +1,25 @@
+/**
+  * @name Compass
+  */
+@import
+"compass/css3";
+
+/**
+  * @name Modules
+  */
+@import
+"./modules/variables",
+"./modules/queries",
+"./modules/mixins";
+
+/**
+  * @name Home
+  */
+.home {
+    .logo {
+        width: 100%;
+        padding: 0 16px;
+
+        .jekyll { @include size(100%, auto); }
+    }
+}
