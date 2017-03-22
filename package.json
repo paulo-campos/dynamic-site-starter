@@ -6,9 +6,9 @@
   "scripts": {
     "compile:dev": "concurrently \"jekyll build --config ./jekyll/config.dev.yml\" \"gulp compile:dev\"",
     "compile:dist": "concurrently \"jekyll build --config ./jekyll/config.dist.yml\" \"gulp compile:dist\"",
+    "compile:prod": "concurrently \"jekyll build --config ./jekyll/config.prod.yml\" \"gulp compile:dist\"",
     "serve:dev": "concurrently \"jekyll build --config ./jekyll/config.dev.yml --watch\" \"gulp serve:dev\"",
-    "serve:dist": "concurrently \"jekyll build --config ./jekyll/config.dist.yml\" \"gulp serve:dist\"",
-    "compile:prod": "concurrently \"jekyll build --config ./jekyll/config.prod.yml\" \"gulp compile:dist\""
+    "serve:dist": "concurrently \"jekyll build --config ./jekyll/config.dist.yml\" \"gulp serve:dist\""
   },
   "repository": {
     "type": "git",

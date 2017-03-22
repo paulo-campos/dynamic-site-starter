@@ -17,6 +17,7 @@ plugins.gulp.task('default', () => {
     console.log('|    Use the commands:          |');
     console.log('|      $ gulp compile:dev       |');
     console.log('|      $ gulp compile:dist      |');
+    console.log('|      $ gulp compile:prod      |');
     console.log('|      $ gulp serve:dev         |');
     console.log('|      $ gulp serve:dist        |');
     console.log('|                               |');
