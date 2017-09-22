@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;;IAEI;AAIJ;;IAEI;ACRJ;;IAEI;AASJ;;IAEI;AA6BJ;;IAEI;AA+CJ;;IAEI;AD/EJ;;IAEI;;AAEA,WAAM;EACF,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,MAAM;;;AAEf,mBAAQ;ECPZ,KAAK,EDOuB,IAAI;ECNhC,MAAM,EDM4B,IAAI",
-"sources": ["home.scss","../modules/_mixins.scss"],
-"names": [],
-"file": "home.css"
-}

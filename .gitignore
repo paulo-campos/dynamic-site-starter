@@ -5,8 +5,9 @@
 /node_modules/
 
 # Ignored files
-/dev/app/**/*.css
-/dev/app/**/*.map
+/dev/stylesheets/**/*.css
+/dev/stylesheets/**/*.map
+.package-lock.json
 .jekyll-metadata
 
 # Ignored extensions

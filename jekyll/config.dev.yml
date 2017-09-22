@@ -1,6 +1,7 @@
 source      : ./dev
 destination : ./dev/_statics
-exclude     : ['icons', 'assets', 'scripts', 'stylesheets']
+exclude     : [ 'assets', 'icons', 'mock', 'scripts', 'stylesheets' ]
 name        : Jekyll Starter
 author      : Paulo Campos
 baseUrl     : http://localhost:3000
+permalink   : /:title.html
